@@ -1,0 +1,55 @@
+[
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".",
+            "resource-type": ["font"]
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "/fonts\\.googleapis\\.com/"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "/use\\.typekit\\.com/",
+            "resource-type": ["font", "raw", "style-sheet"],
+            "unless-domain": ["typekit.com"]
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "/use\\.typekit\\.net/",
+            "resource-type": ["font", "raw", "style-sheet"],
+            "unless-domain": ["typekit.com"]
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
+            "url-filter": "\\..*\\/.*icon"
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
+            "url-filter": "\\..*\\/.*awesome"
+        }
+    }
+]
