@@ -15,6 +15,7 @@
 		D4275C671BA0D83B005B7CA4 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = D4275C661BA0D83B005B7CA4 /* blockerList.json */; };
 		D4275C6A1BA0D83B005B7CA4 /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D4275C691BA0D83B005B7CA4 /* ActionRequestHandler.m */; };
 		D4275C6E1BA0D83B005B7CA4 /* content-blocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D4275C641BA0D83B005B7CA4 /* content-blocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D43325331BB6F2D2004D9432 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43325321BB6F2D2004D9432 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		D4275C681BA0D83B005B7CA4 /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
 		D4275C691BA0D83B005B7CA4 /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
 		D4275C6B1BA0D83B005B7CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43325311BB6F2D2004D9432 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D43325321BB6F2D2004D9432 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +101,12 @@
 			children = (
 				D4275C4C1BA0D807005B7CA4 /* AppDelegate.h */,
 				D4275C4D1BA0D807005B7CA4 /* AppDelegate.m */,
-				D4275C521BA0D807005B7CA4 /* Main.storyboard */,
 				D4275C551BA0D807005B7CA4 /* Assets.xcassets */,
-				D4275C571BA0D807005B7CA4 /* LaunchScreen.storyboard */,
 				D4275C5A1BA0D807005B7CA4 /* Info.plist */,
+				D4275C571BA0D807005B7CA4 /* LaunchScreen.storyboard */,
+				D4275C521BA0D807005B7CA4 /* Main.storyboard */,
+				D43325311BB6F2D2004D9432 /* ViewController.h */,
+				D43325321BB6F2D2004D9432 /* ViewController.m */,
 				D4275C491BA0D807005B7CA4 /* Supporting Files */,
 			);
 			path = SansFonts;
@@ -230,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43325331BB6F2D2004D9432 /* ViewController.m in Sources */,
 				D4275C4E1BA0D807005B7CA4 /* AppDelegate.m in Sources */,
 				D4275C4B1BA0D807005B7CA4 /* main.m in Sources */,
 			);
