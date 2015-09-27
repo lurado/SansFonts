@@ -4,6 +4,8 @@
 
 ## A WebKit Content Blocker That Kills Web Fonts With Fire
 
+…except for icon fonts, because they don’t delay text rendering.
+
 See [my blog post](https://jlnr.de/2015/09/13/sans-fonts.html) for the motivation behind this project.
 
 ## Download
