@@ -8,8 +8,9 @@ See [my blog post](https://jlnr.de/2015/09/13/sans-fonts.html) for the motivatio
 
 ## Download
 
-My iOS 9 app has not passed Apple’s review yet.
-If you are on OS X 10.11 (El Capitan) or later, you can download the code-signed Safari extensions on [the releases page](https://github.com/jlnr/SansFonts/releases).
+You can [download the iOS 9 app here](https://itunes.apple.com/us/app/sans-fonts/id1037531461?mt=8).
+
+If you are on OS X 10.11 (El Capitan) or later, you can download the code-signed Safari extensions on [the releases page](https://github.com/jlnr/SansFonts/releases).
 
 ## Limitations
 
@@ -24,7 +25,7 @@ This blog post was more helpful than the documentation on the Apple developer si
 
 ## License
 
-The media assets in here (PNG and Sketch files) are licensed under the Creative Commons BY-SA 4.0 license.
+The media assets in here (PNG and Sketch files) are licensed under the Creative Commons BY-SA 4.0 license.
 The author is: Julian Raschke, julian@raschke.de
 
 All other files, including the source code and all build files, are released under the MIT license. Enjoy!
