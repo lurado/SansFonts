@@ -19,7 +19,7 @@ If you are using Safari 9 or later (not necessarily on El Capitan!), you can do
 * Content blockers cannot block fonts that are embedded in CSS files using `data:` URLs. (Yes, that is a thing.)
 * Sans Fonts uses primitive heuristics to exclude Font Awesome and other icon fonts from being blocked — some non-icon fonts will probably slip through the cracks.
 * The [blocker list](content-blocker/blockerList.json) is still very basic.
-  I expect the list to grow as soon as I upgrade my work partition to El Capitan.
+  I am using this extension for my daily browsing, though, so major bugs should be squished fast enough.
 
 ## Related Reading
 
