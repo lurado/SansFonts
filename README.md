@@ -12,7 +12,7 @@ See [my blog post](https://jlnr.de/2015/09/13/sans-fonts.html) for the motivatio
 
 You can [download the iOS 9 app here](https://itunes.apple.com/us/app/sans-fonts/id1037531461?mt=8).
 
-If you are on OS X 10.11 (El Capitan) or later, you can download the code-signed Safari extensions on [the releases page](https://github.com/jlnr/SansFonts/releases).
+If you are using Safari 9 or later (not necessarily on El Capitan!), you can download the code-signed Safari extensions from [the releases page](https://github.com/jlnr/SansFonts/releases).
 
 ## Limitations
 
