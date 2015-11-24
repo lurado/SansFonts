@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Julian Raschke</string>
 	<key>Builder Version</key>
-	<string>11601.1.56</string>
+	<string>11601.2.7.2</string>
 	<key>CFBundleDisplayName</key>
 	<string>Sans Fonts</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>Content</key>
 	<dict>
 		<key>Content Blocker</key>
