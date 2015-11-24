@@ -81,6 +81,14 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
+            "url-filter": "fonts\\/hipchat\\."
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
             "url-filter": "fontastic"
         }
     }
