@@ -57,7 +57,15 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
-            "url-filter": "ss-pika"
+            "url-filter": "\\..*\\/.*ss-pika"
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
+            "url-filter": "\\..*\\/.*icomoon"
         }
     },
     {
