@@ -75,5 +75,13 @@
         "trigger": {
             "url-filter": "fonts\\/imgur\\."
         }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
+            "url-filter": "fontastic"
+        }
     }
 ]
