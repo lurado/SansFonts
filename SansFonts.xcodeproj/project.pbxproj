@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D407B5E31C0511B400D9F786 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = D407B5E21C0511B400D9F786 /* blockerList.json */; };
 		D4275C4B1BA0D807005B7CA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4275C4A1BA0D807005B7CA4 /* main.m */; };
 		D4275C4E1BA0D807005B7CA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4275C4D1BA0D807005B7CA4 /* AppDelegate.m */; };
 		D4275C541BA0D807005B7CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4275C521BA0D807005B7CA4 /* Main.storyboard */; };
 		D4275C561BA0D807005B7CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4275C551BA0D807005B7CA4 /* Assets.xcassets */; };
 		D4275C591BA0D807005B7CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4275C571BA0D807005B7CA4 /* LaunchScreen.storyboard */; };
-		D4275C671BA0D83B005B7CA4 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = D4275C661BA0D83B005B7CA4 /* blockerList.json */; };
 		D4275C6A1BA0D83B005B7CA4 /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D4275C691BA0D83B005B7CA4 /* ActionRequestHandler.m */; };
 		D4275C6E1BA0D83B005B7CA4 /* content-blocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D4275C641BA0D83B005B7CA4 /* content-blocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D43325331BB6F2D2004D9432 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43325321BB6F2D2004D9432 /* ViewController.m */; };
@@ -43,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D407B5E21C0511B400D9F786 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = blockerList.json; path = SansFonts.safariextension/blockerList.json; sourceTree = SOURCE_ROOT; };
 		D4275C461BA0D807005B7CA4 /* SansFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SansFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4275C4A1BA0D807005B7CA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4275C4C1BA0D807005B7CA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		D4275C581BA0D807005B7CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4275C5A1BA0D807005B7CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4275C641BA0D83B005B7CA4 /* content-blocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "content-blocker.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4275C661BA0D83B005B7CA4 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
 		D4275C681BA0D83B005B7CA4 /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
 		D4275C691BA0D83B005B7CA4 /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
 		D4275C6B1BA0D83B005B7CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		D4275C651BA0D83B005B7CA4 /* Content Blocker */ = {
 			isa = PBXGroup;
 			children = (
-				D4275C661BA0D83B005B7CA4 /* blockerList.json */,
+				D407B5E21C0511B400D9F786 /* blockerList.json */,
 				D4275C681BA0D83B005B7CA4 /* ActionRequestHandler.h */,
 				D4275C691BA0D83B005B7CA4 /* ActionRequestHandler.m */,
 				D4275C6B1BA0D83B005B7CA4 /* Info.plist */,
@@ -216,6 +216,7 @@
 			files = (
 				D4275C591BA0D807005B7CA4 /* LaunchScreen.storyboard in Resources */,
 				D4275C561BA0D807005B7CA4 /* Assets.xcassets in Resources */,
+				D407B5E31C0511B400D9F786 /* blockerList.json in Resources */,
 				D4275C541BA0D807005B7CA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,7 +225,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4275C671BA0D83B005B7CA4 /* blockerList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
