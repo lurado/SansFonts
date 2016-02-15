@@ -91,5 +91,13 @@
         "trigger": {
             "url-filter": "fontastic"
         }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
+            "url-filter": "cloudfront.net\\/aws-console"
+        }
     }
 ]
