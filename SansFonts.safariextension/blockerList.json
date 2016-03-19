@@ -130,6 +130,14 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
+            "url-filter": "\\/fonts\\/Bloomberg"
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
             "url-filter": "cloudfront.net\\/aws-console"
         }
     }
