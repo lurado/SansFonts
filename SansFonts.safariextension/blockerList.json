@@ -122,6 +122,14 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
+            "url-filter": "\\/fonts\\/matador-network\\."
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
             "url-filter": "cloudfront.net\\/aws-console"
         }
     }
