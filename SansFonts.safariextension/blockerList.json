@@ -5,7 +5,8 @@
         },
         "trigger": {
             "url-filter": ".",
-            "resource-type": ["font"]
+            "resource-type": ["font"],
+            "unless-domain": ["justfont.com"]
         }
     },
     {
@@ -82,14 +83,6 @@
         },
         "trigger": {
             "url-filter": "fonts\\/hipchat\\."
-        }
-    },
-    {
-        "action": {
-            "type": "ignore-previous-rules"
-        },
-        "trigger": {
-            "url-filter": "-logo\\."
         }
     },
     {
