@@ -90,7 +90,23 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
+            "url-filter": "-logo\\."
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
             "url-filter": "fontastic"
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
+            "url-filter": "pictofont\\."
         }
     },
     {
