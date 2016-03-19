@@ -138,6 +138,14 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
+            "url-filter": "\\/fonts\\/blendle\\/blendle\\."
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
             "url-filter": "cloudfront.net\\/aws-console"
         }
     }
