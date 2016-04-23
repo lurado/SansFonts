@@ -114,6 +114,14 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
+            "url-filter": "ss-standard\\."
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
             "url-filter": "projekktor\\."
         }
     },
