@@ -122,6 +122,14 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
+            "url-filter": "ETmodules_"
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
             "url-filter": "projekktor\\."
         }
     },
