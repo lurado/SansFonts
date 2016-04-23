@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Julian Raschke</string>
 	<key>Builder Version</key>
-	<string>11601.4.4</string>
+	<string>11601.5.17.1</string>
 	<key>CFBundleDisplayName</key>
 	<string>Sans Fonts</string>
 	<key>CFBundleIdentifier</key>
@@ -22,7 +22,7 @@
 		<string>blockerList.json</string>
 	</dict>
 	<key>DeveloperIdentifier</key>
-	<string>0000000000</string>
+	<string>95FA22JKUY</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Website</key>
