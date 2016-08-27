@@ -154,6 +154,14 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
+            "url-filter": "atlasobscura\\."
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
             "url-filter": "\\/fonts\\/matador-network\\."
         }
     },
