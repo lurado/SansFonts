@@ -162,6 +162,14 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
+            "url-filter": "assets\\.jimstatic\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
             "url-filter": "\\/fonts\\/matador-network\\."
         }
     },
