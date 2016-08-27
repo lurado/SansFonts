@@ -29,5 +29,7 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>ActionRequestHandler</string>
 	</dict>
+	<key>NSHumanReadableDescription</key>
+	<string>Sans Fonts blocks web fonts to speed up browsing.</string>
 </dict>
 </plist>
