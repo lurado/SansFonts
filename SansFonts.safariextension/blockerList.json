@@ -114,7 +114,7 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
-            "url-filter": "fontello\\."
+            "url-filter": "fontello"
         }
     },
     {
