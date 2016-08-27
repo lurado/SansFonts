@@ -162,6 +162,14 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
+            "url-filter": "\\/fonts\\/bauhaus\\."
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
             "url-filter": "\\/fonts\\/imgur-"
         }
     },
