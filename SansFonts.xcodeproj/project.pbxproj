@@ -70,7 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D407B5E21C0511B400D9F786 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = blockerList.json; path = SansFonts.safariextension/blockerList.json; sourceTree = SOURCE_ROOT; };
+		D407B5E21C0511B400D9F786 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockerList.json; sourceTree = SOURCE_ROOT; };
 		D40A462E1D97D37C00D16658 /* SansFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SansFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40A46301D97D37C00D16658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D40A46311D97D37C00D16658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
