@@ -6,7 +6,8 @@
 //  Copyright © 2015 Julian Raschke. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/NSExtensionRequestHandling.h>
+
 
 @interface ActionRequestHandler : NSObject <NSExtensionRequestHandling>
 

@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		D407B5E31C0511B400D9F786 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = D407B5E21C0511B400D9F786 /* blockerList.json */; };
+		D40A46321D97D37C00D16658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D40A46311D97D37C00D16658 /* AppDelegate.m */; };
+		D40A46351D97D37C00D16658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D40A46341D97D37C00D16658 /* main.m */; };
+		D40A46381D97D37C00D16658 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40A46371D97D37C00D16658 /* ViewController.m */; };
+		D40A463A1D97D37C00D16658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40A46391D97D37C00D16658 /* Assets.xcassets */; };
+		D40A463D1D97D37C00D16658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40A463B1D97D37C00D16658 /* Main.storyboard */; };
+		D41288BE1D990FA0006DA431 /* content-blocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D41288AF1D990FA0006DA431 /* content-blocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D41288C31D991040006DA431 /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D4275C691BA0D83B005B7CA4 /* ActionRequestHandler.m */; };
+		D41289121D991807006DA431 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = D407B5E21C0511B400D9F786 /* blockerList.json */; };
+		D41289141D991B81006DA431 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41289131D991B81006DA431 /* Cocoa.framework */; };
 		D4275C4B1BA0D807005B7CA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4275C4A1BA0D807005B7CA4 /* main.m */; };
 		D4275C4E1BA0D807005B7CA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4275C4D1BA0D807005B7CA4 /* AppDelegate.m */; };
 		D4275C541BA0D807005B7CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4275C521BA0D807005B7CA4 /* Main.storyboard */; };
@@ -19,6 +28,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D41288BC1D990FA0006DA431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4275C3E1BA0D807005B7CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D41288AE1D990FA0006DA431;
+			remoteInfo = "content-blocker-mac";
+		};
 		D4275C6C1BA0D83B005B7CA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D4275C3E1BA0D807005B7CA4 /* Project object */;
@@ -29,6 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D41288C21D990FA0006DA431 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D41288BE1D990FA0006DA431 /* content-blocker.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4275C721BA0D83B005B7CA4 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,6 +71,20 @@
 
 /* Begin PBXFileReference section */
 		D407B5E21C0511B400D9F786 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = blockerList.json; path = SansFonts.safariextension/blockerList.json; sourceTree = SOURCE_ROOT; };
+		D40A462E1D97D37C00D16658 /* SansFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SansFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40A46301D97D37C00D16658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D40A46311D97D37C00D16658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D40A46341D97D37C00D16658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D40A46361D97D37C00D16658 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D40A46371D97D37C00D16658 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D40A46391D97D37C00D16658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D40A463C1D97D37C00D16658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D40A463E1D97D37C00D16658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41288AF1D990FA0006DA431 /* content-blocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "content-blocker.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41288B11D990FA0006DA431 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		D41288B71D990FA0006DA431 /* content_blocker_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = content_blocker_mac.entitlements; sourceTree = "<group>"; };
+		D41288BB1D990FA0006DA431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41289131D991B81006DA431 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D4275C461BA0D807005B7CA4 /* SansFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SansFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4275C4A1BA0D807005B7CA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4275C4C1BA0D807005B7CA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +102,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D40A462B1D97D37C00D16658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41288AC1D990FA0006DA431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41289141D991B81006DA431 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4275C431BA0D807005B7CA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,11 +134,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D40A462F1D97D37C00D16658 /* SansFonts - macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D40A46301D97D37C00D16658 /* AppDelegate.h */,
+				D40A46311D97D37C00D16658 /* AppDelegate.m */,
+				D40A46361D97D37C00D16658 /* ViewController.h */,
+				D40A46371D97D37C00D16658 /* ViewController.m */,
+				D40A46391D97D37C00D16658 /* Assets.xcassets */,
+				D40A463B1D97D37C00D16658 /* Main.storyboard */,
+				D40A463E1D97D37C00D16658 /* Info.plist */,
+				D40A46331D97D37C00D16658 /* Supporting Files */,
+			);
+			name = "SansFonts - macOS";
+			path = "SansFonts-macOS";
+			sourceTree = "<group>";
+		};
+		D40A46331D97D37C00D16658 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D40A46341D97D37C00D16658 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D41288B01D990FA0006DA431 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D41289131D991B81006DA431 /* Cocoa.framework */,
+				D41288B11D990FA0006DA431 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D41288B31D990FA0006DA431 /* Content Blocker - macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D41288BB1D990FA0006DA431 /* Info.plist */,
+				D41288B61D990FA0006DA431 /* Supporting Files */,
+			);
+			name = "Content Blocker - macOS";
+			path = "content-blocker-mac";
+			sourceTree = "<group>";
+		};
+		D41288B61D990FA0006DA431 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D41288B71D990FA0006DA431 /* content_blocker_mac.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D4275C3D1BA0D807005B7CA4 = {
 			isa = PBXGroup;
 			children = (
-				D4275C481BA0D807005B7CA4 /* SansFonts */,
-				D4275C651BA0D83B005B7CA4 /* Content Blocker */,
+				D4275C481BA0D807005B7CA4 /* SansFonts - iOS */,
+				D4275C651BA0D83B005B7CA4 /* Content Blocker - iOS */,
+				D40A462F1D97D37C00D16658 /* SansFonts - macOS */,
+				D41288B31D990FA0006DA431 /* Content Blocker - macOS */,
+				D41288B01D990FA0006DA431 /* Frameworks */,
 				D4275C471BA0D807005B7CA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,11 +202,13 @@
 			children = (
 				D4275C461BA0D807005B7CA4 /* SansFonts.app */,
 				D4275C641BA0D83B005B7CA4 /* content-blocker.appex */,
+				D40A462E1D97D37C00D16658 /* SansFonts.app */,
+				D41288AF1D990FA0006DA431 /* content-blocker.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4275C481BA0D807005B7CA4 /* SansFonts */ = {
+		D4275C481BA0D807005B7CA4 /* SansFonts - iOS */ = {
 			isa = PBXGroup;
 			children = (
 				D4275C4C1BA0D807005B7CA4 /* AppDelegate.h */,
@@ -109,6 +221,7 @@
 				D43325321BB6F2D2004D9432 /* ViewController.m */,
 				D4275C491BA0D807005B7CA4 /* Supporting Files */,
 			);
+			name = "SansFonts - iOS";
 			path = SansFonts;
 			sourceTree = "<group>";
 		};
@@ -120,7 +233,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D4275C651BA0D83B005B7CA4 /* Content Blocker */ = {
+		D4275C651BA0D83B005B7CA4 /* Content Blocker - iOS */ = {
 			isa = PBXGroup;
 			children = (
 				D407B5E21C0511B400D9F786 /* blockerList.json */,
@@ -128,16 +241,52 @@
 				D4275C691BA0D83B005B7CA4 /* ActionRequestHandler.m */,
 				D4275C6B1BA0D83B005B7CA4 /* Info.plist */,
 			);
-			name = "Content Blocker";
+			name = "Content Blocker - iOS";
 			path = "content-blocker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4275C451BA0D807005B7CA4 /* SansFonts */ = {
+		D40A462D1D97D37C00D16658 /* SansFonts - macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4275C5D1BA0D807005B7CA4 /* Build configuration list for PBXNativeTarget "SansFonts" */;
+			buildConfigurationList = D40A46411D97D37C00D16658 /* Build configuration list for PBXNativeTarget "SansFonts - macOS" */;
+			buildPhases = (
+				D40A462A1D97D37C00D16658 /* Sources */,
+				D40A462B1D97D37C00D16658 /* Frameworks */,
+				D40A462C1D97D37C00D16658 /* Resources */,
+				D41288C21D990FA0006DA431 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D41288BD1D990FA0006DA431 /* PBXTargetDependency */,
+			);
+			name = "SansFonts - macOS";
+			productName = "SansFonts-macOS";
+			productReference = D40A462E1D97D37C00D16658 /* SansFonts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D41288AE1D990FA0006DA431 /* content-blocker-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41288BF1D990FA0006DA431 /* Build configuration list for PBXNativeTarget "content-blocker-mac" */;
+			buildPhases = (
+				D41288AB1D990FA0006DA431 /* Sources */,
+				D41288AC1D990FA0006DA431 /* Frameworks */,
+				D41288AD1D990FA0006DA431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "content-blocker-mac";
+			productName = "content-blocker-mac";
+			productReference = D41288AF1D990FA0006DA431 /* content-blocker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D4275C451BA0D807005B7CA4 /* SansFonts - iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4275C5D1BA0D807005B7CA4 /* Build configuration list for PBXNativeTarget "SansFonts - iOS" */;
 			buildPhases = (
 				D4275C421BA0D807005B7CA4 /* Sources */,
 				D4275C431BA0D807005B7CA4 /* Frameworks */,
@@ -149,7 +298,7 @@
 			dependencies = (
 				D4275C6D1BA0D83B005B7CA4 /* PBXTargetDependency */,
 			);
-			name = SansFonts;
+			name = "SansFonts - iOS";
 			productName = SansFonts;
 			productReference = D4275C461BA0D807005B7CA4 /* SansFonts.app */;
 			productType = "com.apple.product-type.application";
@@ -180,13 +329,25 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Julian Raschke";
 				TargetAttributes = {
+					D40A462D1D97D37C00D16658 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 95FA22JKUY;
+						ProvisioningStyle = Automatic;
+					};
+					D41288AE1D990FA0006DA431 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 95FA22JKUY;
+						ProvisioningStyle = Automatic;
+					};
 					D4275C451BA0D807005B7CA4 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 95FA22JKUY;
+						ProvisioningStyle = Automatic;
 					};
 					D4275C631BA0D83B005B7CA4 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 95FA22JKUY;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -203,13 +364,32 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4275C451BA0D807005B7CA4 /* SansFonts */,
+				D4275C451BA0D807005B7CA4 /* SansFonts - iOS */,
 				D4275C631BA0D83B005B7CA4 /* content-blocker */,
+				D40A462D1D97D37C00D16658 /* SansFonts - macOS */,
+				D41288AE1D990FA0006DA431 /* content-blocker-mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D40A462C1D97D37C00D16658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40A463A1D97D37C00D16658 /* Assets.xcassets in Resources */,
+				D40A463D1D97D37C00D16658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41288AD1D990FA0006DA431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41289121D991807006DA431 /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4275C441BA0D807005B7CA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -231,6 +411,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D40A462A1D97D37C00D16658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40A46381D97D37C00D16658 /* ViewController.m in Sources */,
+				D40A46351D97D37C00D16658 /* main.m in Sources */,
+				D40A46321D97D37C00D16658 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41288AB1D990FA0006DA431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41288C31D991040006DA431 /* ActionRequestHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4275C421BA0D807005B7CA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,6 +450,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D41288BD1D990FA0006DA431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D41288AE1D990FA0006DA431 /* content-blocker-mac */;
+			targetProxy = D41288BC1D990FA0006DA431 /* PBXContainerItemProxy */;
+		};
 		D4275C6D1BA0D83B005B7CA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D4275C631BA0D83B005B7CA4 /* content-blocker */;
@@ -260,6 +463,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D40A463B1D97D37C00D16658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40A463C1D97D37C00D16658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		D4275C521BA0D807005B7CA4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -279,11 +490,86 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D40A463F1D97D37C00D16658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 95FA22JKUY;
+				INFOPLIST_FILE = "SansFonts-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jlnr.SansFontsMac;
+				PRODUCT_NAME = SansFonts;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D40A46401D97D37C00D16658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 95FA22JKUY;
+				INFOPLIST_FILE = "SansFonts-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jlnr.SansFontsMac;
+				PRODUCT_NAME = SansFonts;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D41288C01D990FA0006DA431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_ENTITLEMENTS = "content-blocker-mac/content_blocker_mac.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = 95FA22JKUY;
+				INFOPLIST_FILE = "content-blocker-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.jlnr.SansFontsMac.content-blocker";
+				PRODUCT_NAME = "content-blocker";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D41288C11D990FA0006DA431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_ENTITLEMENTS = "content-blocker-mac/content_blocker_mac.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				DEVELOPMENT_TEAM = 95FA22JKUY;
+				INFOPLIST_FILE = "content-blocker-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.jlnr.SansFontsMac.content-blocker";
+				PRODUCT_NAME = "content-blocker";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		D4275C5B1BA0D807005B7CA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -297,7 +583,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -317,9 +602,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -328,7 +613,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -342,7 +626,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -356,8 +639,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -366,35 +649,47 @@
 		D4275C5E1BA0D807005B7CA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 95FA22JKUY;
 				INFOPLIST_FILE = SansFonts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.jlnr.SansFonts;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SansFonts;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
 		D4275C5F1BA0D807005B7CA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 95FA22JKUY;
 				INFOPLIST_FILE = SansFonts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.jlnr.SansFonts;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SansFonts;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
 		D4275C701BA0D83B005B7CA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = arm64;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 95FA22JKUY;
 				INFOPLIST_FILE = "content-blocker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.jlnr.SansFonts.content-blocker";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "content-blocker";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -402,11 +697,15 @@
 		D4275C711BA0D83B005B7CA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = arm64;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 95FA22JKUY;
 				INFOPLIST_FILE = "content-blocker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.jlnr.SansFonts.content-blocker";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "content-blocker";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -414,6 +713,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D40A46411D97D37C00D16658 /* Build configuration list for PBXNativeTarget "SansFonts - macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40A463F1D97D37C00D16658 /* Debug */,
+				D40A46401D97D37C00D16658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41288BF1D990FA0006DA431 /* Build configuration list for PBXNativeTarget "content-blocker-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41288C01D990FA0006DA431 /* Debug */,
+				D41288C11D990FA0006DA431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D4275C411BA0D807005B7CA4 /* Build configuration list for PBXProject "SansFonts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -423,7 +740,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4275C5D1BA0D807005B7CA4 /* Build configuration list for PBXNativeTarget "SansFonts" */ = {
+		D4275C5D1BA0D807005B7CA4 /* Build configuration list for PBXNativeTarget "SansFonts - iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4275C5E1BA0D807005B7CA4 /* Debug */,

@@ -12,14 +12,11 @@
 
 @implementation AppDelegate
 
-
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    NSString *identifier =
-        [[NSBundle mainBundle].bundleIdentifier stringByAppendingString:@".content-blocker"];
+    NSString *identifier = [[NSBundle mainBundle].bundleIdentifier stringByAppendingString:@".content-blocker"];
     
-    [SFContentBlockerManager reloadContentBlockerWithIdentifier:identifier
-                                              completionHandler:^(NSError *error) {
+    [SFContentBlockerManager reloadContentBlockerWithIdentifier:identifier completionHandler:^(NSError *error) {
         #ifdef DEBUG
         NSLog(@"Error: %@", error);
         #endif
