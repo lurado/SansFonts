@@ -1,6 +1,6 @@
 # Sans Fonts
 
-![Sans Fonts icon](SansFonts.safariextension/Icon-128.png)
+![Sans Fonts icon](SansFonts-macOS/Assets.xcassets/AppIcon.appiconset/MacIcon-128.png)
 
 ## A WebKit Content Blocker That Kills Web Fonts With Fire
 
