@@ -8,20 +8,22 @@
 
 #import "AppDelegate.h"
 
+
 @interface AppDelegate ()
 
 @end
 
+
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
 {
-    // Insert code here to initialize your application
+    return YES;
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification
+- (IBAction)reportAnIssue:(id)sender
 {
-    // Insert code here to tear down your application
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/lurado/SansFonts/issues"]];
 }
 
 @end
