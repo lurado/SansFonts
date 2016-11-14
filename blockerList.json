@@ -6,7 +6,7 @@
         "trigger": {
             "url-filter": ".",
             "resource-type": ["font"],
-            "unless-domain": ["justfont.com"]
+            "unless-domain": ["justfont.com", "localhost"]
         }
     },
     {
@@ -251,6 +251,14 @@
         },
         "trigger": {
             "url-filter": "cloudfront.net\\/aws-console"
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
+            "url-filter": "\\.dev\\/"
         }
     }
 ]
