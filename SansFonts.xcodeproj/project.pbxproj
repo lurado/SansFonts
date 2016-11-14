@@ -70,6 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D40317BA1DDA0BF6009471FB /* SansFonts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SansFonts.entitlements; sourceTree = SOURCE_ROOT; };
 		D407B5E21C0511B400D9F786 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockerList.json; sourceTree = SOURCE_ROOT; };
 		D40A462E1D97D37C00D16658 /* SansFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SansFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40A46301D97D37C00D16658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -137,6 +138,7 @@
 		D40A462F1D97D37C00D16658 /* SansFonts - macOS */ = {
 			isa = PBXGroup;
 			children = (
+				D40317BA1DDA0BF6009471FB /* SansFonts.entitlements */,
 				D40A46301D97D37C00D16658 /* AppDelegate.h */,
 				D40A46311D97D37C00D16658 /* AppDelegate.m */,
 				D40A46361D97D37C00D16658 /* ViewController.h */,
@@ -326,13 +328,18 @@
 		D4275C3E1BA0D807005B7CA4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Julian Raschke";
 				TargetAttributes = {
 					D40A462D1D97D37C00D16658 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 95FA22JKUY;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					D41288AE1D990FA0006DA431 = {
 						CreatedOnToolsVersion = 8.0;
@@ -498,12 +505,13 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_ENTITLEMENTS = SansFonts.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 95FA22JKUY;
 				INFOPLIST_FILE = "SansFonts-macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.jlnr.SansFontsMac;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lurado.SansFonts;
 				PRODUCT_NAME = SansFonts;
 				SDKROOT = macosx;
 			};
@@ -517,12 +525,13 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_ENTITLEMENTS = SansFonts.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 95FA22JKUY;
 				INFOPLIST_FILE = "SansFonts-macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.jlnr.SansFontsMac;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.lurado.SansFonts;
 				PRODUCT_NAME = SansFonts;
 				SDKROOT = macosx;
 			};
@@ -540,7 +549,7 @@
 				DEVELOPMENT_TEAM = 95FA22JKUY;
 				INFOPLIST_FILE = "content-blocker-mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.jlnr.SansFontsMac.content-blocker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.lurado.SansFonts.content-blocker";
 				PRODUCT_NAME = "content-blocker";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -559,7 +568,7 @@
 				DEVELOPMENT_TEAM = 95FA22JKUY;
 				INFOPLIST_FILE = "content-blocker-mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.jlnr.SansFontsMac.content-blocker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.lurado.SansFonts.content-blocker";
 				PRODUCT_NAME = "content-blocker";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
