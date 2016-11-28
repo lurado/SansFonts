@@ -274,6 +274,14 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
+            "url-filter": "\\/sentry\\/dist\\/sentry-simple\\."
+        }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
             "url-filter": "\\.dev\\/"
         }
     }
