@@ -5,8 +5,13 @@
         },
         "trigger": {
             "url-filter": ".",
-            "resource-type": ["font"],
-            "unless-domain": ["justfont.com", "localhost"]
+            "resource-type": [
+                "font"
+            ],
+            "unless-domain": [
+                "justfont.com",
+                "localhost"
+            ]
         }
     },
     {
@@ -23,18 +28,14 @@
         },
         "trigger": {
             "url-filter": "/use\\.typekit\\.com/",
-            "resource-type": ["font", "raw", "style-sheet"],
-            "unless-domain": ["typekit.com"]
-        }
-    },
-    {
-        "action": {
-            "type": "block"
-        },
-        "trigger": {
-            "url-filter": "/use\\.typekit\\.net/",
-            "resource-type": ["font", "raw", "style-sheet"],
-            "unless-domain": ["typekit.com"]
+            "resource-type": [
+                "font",
+                "raw",
+                "style-sheet"
+            ],
+            "unless-domain": [
+                "typekit.com"
+            ]
         }
     },
     {
@@ -258,7 +259,7 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
-            "url-filter": "odistatic\\.net.*fonts/opodo.*"
+            "url-filter": "odistatic\\.net.*fonts\\/opodo.*"
         }
     },
     {
@@ -266,7 +267,7 @@
             "type": "ignore-previous-rules"
         },
         "trigger": {
-            "url-filter": "cloudfront.net\\/aws-console"
+            "url-filter": "cloudfront\\.net\\/aws-console"
         }
     },
     {
