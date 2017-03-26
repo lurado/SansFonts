@@ -277,5 +277,13 @@
         "trigger": {
             "url-filter": "\\.dev\\/"
         }
+    },
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
+            "url-filter": "apple\\.com\\/wss\\/fonts\\/"
+        }
     }
 ]

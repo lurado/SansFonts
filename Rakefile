@@ -101,6 +101,10 @@ EXCEPTIONS = [
   # Exception for icon fonts on *.dev, for local development.
   # https://github.com/lurado/SansFonts/issues/35
   /\.dev\//,
+  # Exception for Apple's web fonts, because without them, all text on *.apple.com will be rendered
+  # using their icon font.
+  # https://github.com/lurado/SansFonts/issues/49
+  /apple\.com\/wss\/fonts\//,
 ]
 
 file "blockerList.json" => "Rakefile" do
