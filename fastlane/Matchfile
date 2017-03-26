@@ -1,0 +1,9 @@
+git_url "https://github.com/lurado/match.git"
+
+type "appstore" # The default type, can be: appstore, adhoc or development
+
+app_identifier "com.github.jlnr.SansFonts"
+username "info@lurado.com"
+
+# For all available options run `match --help`
+# Remove the # in the beginning of the line to enable the other options

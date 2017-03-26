@@ -1,0 +1,9 @@
+apple_id "info@lurado.com"
+team_id "JEL6P659TC"  # Developer Portal Team ID
+
+for_platform :ios do
+  app_identifier "com.github.jlnr.SansFonts"
+end
+
+# TODO - add :mac platform
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md

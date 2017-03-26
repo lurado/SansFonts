@@ -1,0 +1,12 @@
+Sans Fonts is a web content blocker for iOS 9 that blocks web fonts.
+
+What are web fonts? Web pages can either use fonts that come with the operating system, or they can refer to font files on the internet, so-called web fonts.
+
+Why would you want to block web fonts? Your iPhone/iPad is a mobile device, and web fonts add extra downloads to web pages you load. This means:
+
+• A delay until text on web pages is finally being shown, especially when the signal is weak.
+• Wasted bandwidth.
+• Privacy implications: many web fonts are loaded from third-party servers, which can potentially track you.
+• Security: if your browser has to do less work, you’ll generally be (slightly) more secure as a result.
+
+We all appreciate beautiful typography…except when we need to look up a phone number while on a 2G (EDGE/GPRS) network, and we can’t read the web page until the font has loaded.
